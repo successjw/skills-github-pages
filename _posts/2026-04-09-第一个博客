@@ -1,0 +1,26 @@
+---
+title:"这是一个测试"
+date:2026-04-09
+---
+你的主页看起来很棒! 🤠
+
+GitHub Pages 使用的是 Jekyll。在 Jekyll 中，博客需要遵守约定的文件命名格式和 “frontmatter”（文件头部信息）。 文件必须命名为 _posts/YYYY-MM-DD-title.md， 并且文件开头必须包含 title 和 date 两个字段。
+
+什么是 frontmatter？ Jekyll 文件使用的格式叫 YAML frontmatter，它位于文件顶部，看起来像这样：
+
+关于 frontmatter 的更多配置说明，可以查看 Jekyll 官方文档。
+
+⌨️ 实操环节：创建一篇博客文章
+切换到 my-pages 分支。
+
+点击 Add file（添加文件） 下拉菜单，选择 Create new file（新建文件）。
+
+将文件命名为 _posts/YYYY-MM-DD-title.md。
+
+把 YYYY-MM-DD 替换为今天的日期，并将 title 修改为你想要的博客标题。
+
+注意：如果修改了标题，请确保单词之间用短横线（-）连接。 如果日期格式不正确，网站会构建失败，并提示错误。 详细说明请参阅：Page build failed: Invalid post date。
+
+在文件顶部输入以下内容：
+
+增加一些内容
